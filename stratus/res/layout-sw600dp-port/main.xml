@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="100"
+    android:orientation="vertical"
+    android:keepScreenOn="true" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/statusRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout 
+                android:id="@+id/statusText1Wrapper"
+                android:layout_height="wrap_content"
+                android:layout_width="0px" 
+                android:layout_weight="50">
+	            <TextView
+	                android:id="@+id/statusText1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentRight="true"
+	                android:paddingRight="15dp"
+	                android:text="@string/status1"
+	                android:textSize="35sp" />
+	        </RelativeLayout>
+
+            <TextView
+                android:id="@+id/statusDisplay1"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:textSize="35sp"
+                android:textIsSelectable="true" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/statusRow2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout 
+                android:id="@+id/statusText2Wrapper"
+                android:layout_height="wrap_content"
+                android:layout_width="0px" 
+                android:layout_weight="50">
+	            <TextView
+	                android:id="@+id/statusText2"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentRight="true"
+	                android:paddingRight="15dp"
+	                android:text="@string/status2"
+	                android:textSize="35sp" />
+	        </RelativeLayout>
+
+            <TextView
+                android:id="@+id/statusDisplay2"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:textSize="35sp"
+                android:textIsSelectable="true" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/statusRow3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout 
+                android:id="@+id/statusText3Wrapper"
+                android:layout_height="wrap_content"
+                android:layout_width="0px" 
+                android:layout_weight="50">
+	            <TextView
+	                android:id="@+id/statusText3"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentRight="true"
+	                android:paddingRight="15dp"
+	                android:text="@string/status3"
+	                android:textSize="35sp" />
+	        </RelativeLayout>
+
+            <TextView
+                android:id="@+id/statusDisplay3"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:textSize="35sp"
+                android:textIsSelectable="true" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/statusRow4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout 
+                android:id="@+id/statusText4Wrapper"
+                android:layout_height="wrap_content"
+                android:layout_width="0px" 
+                android:layout_weight="50">
+	            <TextView
+	                android:id="@+id/statusText4"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentRight="true"
+	                android:paddingRight="15dp"
+	                android:text="@string/status4"
+	                android:textSize="35sp" />
+	        </RelativeLayout>
+
+            <TextView
+                android:id="@+id/statusDisplay4"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:textSize="35sp"
+                android:textIsSelectable="true" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/statusRow5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout 
+                android:id="@+id/statusText5Wrapper"
+                android:layout_height="wrap_content"
+                android:layout_width="0px" 
+                android:layout_weight="50">
+	            <TextView
+	                android:id="@+id/statusText5"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentRight="true"
+	                android:paddingRight="15dp"
+	                android:text="@string/status5"
+	                android:textSize="35sp" />
+	        </RelativeLayout>
+
+            <TextView
+                android:id="@+id/statusDisplay5"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:textSize="35sp"
+                android:textIsSelectable="true" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/statusRow6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout 
+                android:id="@+id/statusText6Wrapper"
+                android:layout_height="wrap_content"
+                android:layout_width="0px" 
+                android:layout_weight="50">
+	            <TextView
+	                android:id="@+id/statusText6"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentRight="true"
+	                android:paddingRight="15dp"
+	                android:text="@string/status6"
+	                android:textSize="35sp" />
+	        </RelativeLayout>
+
+            <TextView
+                android:id="@+id/statusDisplay6"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:textSize="35sp"
+                android:textIsSelectable="true" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/statusRow7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout 
+                android:id="@+id/statusText7Wrapper"
+                android:layout_height="wrap_content"
+                android:layout_width="0px" 
+                android:layout_weight="50">
+	            <TextView
+	                android:id="@+id/statusText7"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentRight="true"
+	                android:paddingRight="15dp"
+	                android:text="@string/status7"
+	                android:textSize="35sp" />
+	        </RelativeLayout>
+
+            <TextView
+                android:id="@+id/statusDisplay7"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:textSize="35sp"
+                android:textIsSelectable="true" />
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/statusRow8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout 
+                android:id="@+id/statusText8Wrapper"
+                android:layout_height="wrap_content"
+                android:layout_width="0px" 
+                android:layout_weight="50">
+	            <TextView
+	                android:id="@+id/statusText8"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentRight="true"
+	                android:paddingRight="15dp"
+	                android:text="@string/status8"
+	                android:textSize="35sp" />
+	        </RelativeLayout>
+
+            <TextView
+                android:id="@+id/statusDisplay8"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:textSize="35sp"
+                android:textIsSelectable="true" />
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/statusRow9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout 
+                android:id="@+id/statusText9Wrapper"
+                android:layout_height="wrap_content"
+                android:layout_width="0px" 
+                android:layout_weight="50">
+	        </RelativeLayout>
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="100"
+        android:weightSum="3" >
+
+        <TableRow
+            android:id="@+id/buttonRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:weightSum="2" >
+
+            <GridLayout
+                android:id="@+id/button1Container"
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:padding="10dp" >
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/button1"
+                    android:textSize="35sp"
+                    android:onClick="takeOff" />
+            </GridLayout>
+
+            <GridLayout
+                android:id="@+id/button2Container"
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:padding="10dp" >
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/button2"
+                    android:textSize="35sp"
+                    android:onClick="landHere" />
+            </GridLayout>
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/buttonRow2"
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:weightSum="2" >
+
+            <GridLayout
+                android:id="@+id/button3Container"
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:padding="10dp" >
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/button3"
+                    android:textSize="35sp"
+                    android:onClick="followMe" />
+            </GridLayout>
+
+            <GridLayout
+                android:id="@+id/button4Container"
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:padding="10dp" >
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/button4"
+                    android:textSize="35sp"
+                    android:onClick="wait" />
+            </GridLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/buttonRow3"
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:weightSum="2" >
+
+            <GridLayout
+                android:id="@+id/button5Container"
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:padding="10dp" >
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/button5"
+                    android:textSize="35sp"
+                    android:onClick="returnToBase" />
+            </GridLayout>
+
+            <GridLayout
+                android:id="@+id/button6Container"
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:padding="10dp" >
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/button6"
+                    android:textSize="35sp"
+                    android:onClick="connect" />
+            </GridLayout>
+      
+
+             </TableRow>
+    </TableLayout>
+
+</LinearLayout>

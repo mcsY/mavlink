@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Stratus</string>
+    <string name="status1">UAV Battery:</string>
+    <string name="status2">UAV GPS:</string>
+    <string name="status3">Phone GPS:</string>
+    <string name="status4">Altitude:</string>
+    <string name="status5">Speed:</string>
+    <string name="status6">Roll:</string>
+    <string name="status7">Pitch:</string>
+    <string name="status8">Heading:</string>
+    <string name="status9">State:</string>
+	<string name="button1">Takeoff</string>
+	<string name="button2">Land</string>
+	<string name="button3">Follow Me</string>
+	<string name="button4">Wait</string>
+	<string name="button5">RTB</string>
+	<string name="button6">Arm</string>
+	<string name="connection">Listening for heartbeat</string>
+	<string name="altitude">Set Altitude(m)</string>
+	<string name="button7">ChangeSpeed</string>
+	<string name="button7_">ChangeSpeed</string>
+</resources>
