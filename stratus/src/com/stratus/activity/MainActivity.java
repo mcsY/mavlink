@@ -518,12 +518,12 @@ public class MainActivity extends Activity
 	    			}
 	    		}
 	    		MAV.setCommandSuccess(false);
-	    		
-//	    		//must raise throttle for mission to start, no ack
-//	    		MAV.overrideThrottle(stream);
-//	    		Thread.sleep(500);
-//	    		//release throttle back to RC
-//	    		MAV.releaseThrottle(stream);
+//	    		
+	    		//must raise throttle for mission to start, no ack
+	    		MAV.overrideThrottle(stream);
+	    		Thread.sleep(500);
+	    		//release throttle back to RC
+	    		MAV.releaseThrottle(stream);
 	    		return 0;
     		}catch(Exception e){
     			e.getMessage();
